@@ -17,6 +17,18 @@ Built to demonstrate real-world content analytics skills using Python and data v
 - **Weekday publishing dominates** — Sunday output is nearly half that of peak weekday days
 - **Tuesday, Wednesday and Friday are the highest volume days** suggesting deliberate mid-week editorial scheduling
 
+## Charts
+
+### Publishing Hours
+![Publishing Hours](chart_publish_hours.png)
+
+### Word Count by Section
+![Word Count by Section](chart_wordcount.png)
+
+### Publishing by Day of Week
+![Day of Week](chart_day_of_week.png)
+
+
 ## Tools Used
 - Python (pandas, matplotlib, requests)
 - Guardian Open Platform API

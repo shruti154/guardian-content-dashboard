@@ -1,8 +1,9 @@
+import os
 import requests
 import pandas as pd
 import time
 
-API_KEY = "dffb1412-20e4-42cc-a48f-d7bcffc785af"
+API_KEY = os.environ.get("GUARDIAN_API_KEY")
 url = "https://content.guardianapis.com/search"
 
 sections = ["technology", "business", "sport", "culture", "politics"]
